@@ -1,1 +1,87 @@
 # profile
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eeeeee;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            background: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+            border: 3px solid #e0e0e0;   
+        }
+
+        .profile-image {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .profile-description {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-link {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 16px;
+        }
+
+        .social-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-card">
+    <img src="cat.jfif" alt="Фото профілю" class="profile-image">
+
+    <h2 class="profile-name">Ім'я Користувача</h2>
+
+    <p class="profile-description">
+        Короткий опис профілю користувача. Тут може бути інформація про
+        захоплення, професію тощо.
+    </p>
+
+    <div class="social-links">
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">Instagram</a>
+    </div>
+</div>
+
+</body>
+</html>
